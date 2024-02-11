@@ -1,7 +1,7 @@
 // import { EmailTemplate } from '../../../components/EmailTemplate';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_re_gW6boLkN_Bu1msYPR15Ds8sUJJ1MMoMxk); // re_gW6boLkN_Bu1msYPR15Ds8sUJJ1MMoMxk
+const resend = `new Resend(process.env.RESEND_re_gW6boLkN_Bu1msYPR15Ds8sUJJ1MMoMxk)`; // re_gW6boLkN_Bu1msYPR15Ds8sUJJ1MMoMxk
 const fromEmail = process.env.FROM_EMAIL;
 
 export async function POST(req, res) {
