@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
 
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,voluptuous.</p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">Bringing your ideas to life through code and pixels is my passion.I specialize in creating engaging web and mobile applications with a focus on user experience. Let&apos;s create something extraordinary together! 💪</p>
 
           <div>
             <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500  hover:bg-slate-200 text-white">Hire Me</button>
