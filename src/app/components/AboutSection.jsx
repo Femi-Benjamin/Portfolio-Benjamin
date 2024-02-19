@@ -9,12 +9,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        {/* <li>Html 5</li> */}
+        {/* <li>Css 3</li> */}
         <li>JavaScript</li>
         <li>React</li>
+        <li>Next.Js</li>
+        <li>TypeScript</li>
+        <li>Node.js</li>
+        <li>TailwindCSS</li>
+        <li>Framer Motion</li>
       </ul>
     ),
   },
@@ -25,7 +28,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Ritman University, Akwa Ibom State.</li>
       </ul>
     ),
   },
@@ -35,8 +38,10 @@ const TAB_DATA = [
     id: "certification",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Google Certification in Frontend Web Development</li>
+        <li>Dev Town Certificate of Completion in Frontend Web Development</li>
+        <li>Side Hustle (Terra) Certificate of Completion to Benjamin Olufemi for Successfully completing the Frontend Web Development(ReactJs)
+        </li>
       </ul>
     ),
   },
@@ -62,16 +67,11 @@ const AboutSection = () => {
           alt="about image"
           className="rounded-xl"
         />
-        <div className="text-white mt-4 md:mt-0 flex flex-col h-full z-10 xl:text-left text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+        <div className="text-white mt-4 md:mt-0 flex flex-col h-full z-10 ">
+          <h2 className="text-4xl font-bold text-white mb-4 xl:text-left text-center">About Me</h2>
+          <p className="text-base lg:text-lg xl:text-left text-center">
             I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git and Github. I am a quick learner and I
-            am always looking to expand my knowledge and skill set. I am a team
-            player and I am excited to work with others to create amazing
-            applications.
+            interactive and responsive web applications. I have experience working with JavaScript, React, Redux, Node.js, Express, HTML, CSS, and Git, Github. I am a quick learner and I am always looking to expand my knowledge and skill set. I am a team player and I am excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start  mt-8">
             <TabButton

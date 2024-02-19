@@ -79,6 +79,20 @@ const EmailSection = () => {
       </div>
       <div>
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
+          <div className="mb-4">
+            <label htmlFor="name" className="block text-md text-zinc-300 pb-3">
+              Your Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Enter your name"
+              name="name"
+              className="xl:bg-[#18191E] bg-transparent border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg w-full p-4 outline-none "
+            />
+          </div>
+
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -91,7 +105,7 @@ const EmailSection = () => {
               type="email"
               id="email"
               required
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 outline-none"
+              className="xl:bg-[#18191E] bg-transparent border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg w-full p-4 outline-none"
               placeholder="jacob@google.com"
             />
           </div>
@@ -108,7 +122,7 @@ const EmailSection = () => {
               type="text"
               id="subject"
               required
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 outline-none"
+              className="xl:bg-[#18191E] bg-transparent border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-4 outline-none"
               placeholder="Just saying hi"
             />
           </div>
@@ -124,14 +138,14 @@ const EmailSection = () => {
               name="message"
               id="message"
               // required="required"
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 outline-none"
+              className="xl:bg-[#18191E] bg-transparent border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-3 outline-none"
               placeholder="Let's talk about..."
             />
           </div>
 
           <button
             type="submit"
-            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full z-10"
+            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-5 rounded-lg w-full z-10"
           >
             Send Message
           </button>
